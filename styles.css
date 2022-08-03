@@ -6,7 +6,7 @@ body {
 
 
 #special {
-    width: 1440px;
+    
 }
 
 .nav {
@@ -14,31 +14,37 @@ body {
     background: #1D0527;
     color: white;
     display: flex;
+    justify-content: space-between;
     /*min-width: 1440px;*/
     /*justify-content: space-around;*/
     /*width: 1440px;*/
     height: 124px;
     margin: 0, auto;
+    position: absolute;
     left: 0;
     padding: 32px 120px;
     right: 0;
     top: 0;
-    justify-content: space-between;
+    width: 100%;
     /*width: 100%;*/
+}
+
+.logocion {
+
 }
 
 #navlogo {
     /*color: #FFFFFF;*/
-    height: 39.32pxx;
+    height: 39.32px;
     /*position: absolute;*/
     width: 36.6px;
 }
 
 .navname{
-    height: 18.86px;
+    height: 39.32px;
     left: 27.94px;
     position: absolute;
-    top: 0.57px;
+    /*top: 0.57px;*/
     width: 99.6px;
 }
 
@@ -125,6 +131,7 @@ body {
     line-height: 24px;
     font-style: normal;
     font-weight: 700;
+    margin-right: 50px;
     height: 60px;
     line-height: 24px;
     width: 174px;
@@ -374,8 +381,8 @@ h3 {
     font-family: myfont;
     font-size: 35px;
     font-style: normal;
-    height: 54px;
     line-height: 54px;
+    height: 54px;
     width: 353px;
     /* order: 0; */
     /* flex-grow: 0; */
@@ -429,7 +436,7 @@ h3 {
 .footer {
     background: #260631;
     display: grid;
-    grid-template-areas: 'a b c' 'a d c';
+    grid-template-areas: 'a d b c' 'a d b c';
     height: 492px;
     left: 0px;
     right: 0px;
@@ -496,6 +503,11 @@ h3 {
     padding: 50px;
     /* padding-left: 100px; */
     /* margin-left: 100px; */
+}
+
+
+.thirimages{
+    grid-area: d;
 }
 
 .thirddiv {   
