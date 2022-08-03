@@ -4,27 +4,34 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+
+#special {
+    width: 1440px;
+}
+
 .nav {
     align-items: center;
     background: #1D0527;
     color: white;
     display: flex;
-    justify-content: space-around;
-    padding: 32px 120px;
+    /*min-width: 1440px;*/
+    /*justify-content: space-around;*/
     /*width: 1440px;*/
     height: 124px;
+    margin: 0, auto;
     left: 0;
+    padding: 32px 120px;
     right: 0;
     top: 0;
     justify-content: space-between;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 #navlogo {
     /*color: #FFFFFF;*/
-    height: 21.4pxx;
+    height: 39.32pxx;
     /*position: absolute;*/
-    width: 20px;
+    width: 36.6px;
 }
 
 .navname{
@@ -38,10 +45,7 @@ body {
 .menus {
     display: flex;
     font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
     gap:  97px;
-    line-height: 24px;
     color: #FFFFFF;
     flex: none;
     flex-grow: 0;
@@ -51,65 +55,65 @@ body {
 
 .navitemone {
     color:  FFFFFFF;
-    display: flex;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
     gap: 5px;
     height: 24px;
-    width: 63px;
-    top: 8px;
     left: 8px;
+    line-height: 24px;
+    top: 8px;
+    width: 63px;
 }
 
-.navitemone select {
-    background: #1D0527;
-    border: 0;
-    color: white;
-    cursor: pointer;
-}
 
 .navitemtwo {
     color:  FFFFFFF;
-    display: flex;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
     gap: 5px;
     height: 24px;
+    left: 8px;
+    line-height: 24px;
+    top: 8px;
     width: 66px;
 }
 
-.navitemtwo select {
-    background: #1D0527;
-    border: 0;
-    color: white;
-    cursor: pointer;
-}
 
 .navitemthree {
     color:  FFFFFFF;
-    display: flex;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
     gap: 5px;
+    left: 8px;
+    line-height: 24px;
     height: 24px;
+    top: 8px;
     width: 61px;
 }
 
-.navitemthree select {
-    background: #1D0527;
-    border: 0;
-    color: white;
-    cursor: pointer;
-}
 
 .navitemfour {
     color:  FFFFFFF;
+    cursor: pointer;
     display: flex;
+    font-style: normal;
+    font-weight: 400;
     gap: 5px;
+    left: 8px;
+    line-height: 24px;
     height: 24px;
+    top: 8px;
     width: 57px;
 }
 
-
-.navitemfour select {
-    background: #1D0527;
-    border: 0;
-    color: white;
-    cursor: pointer;
+.rightbutoon {
+    gap: 50px;
 }
 
 .login {
@@ -118,11 +122,12 @@ body {
     color: #FFFFFF;
     cursor: pointer;
     font-family: 'lato', sans-serif;
-    font-weight: 700;
-    height: ;
     line-height: 24px;
-    size: 16px;
-    width: 0px;
+    font-style: normal;
+    font-weight: 700;
+    height: 60px;
+    line-height: 24px;
+    width: 174px;
 }
 
 
@@ -154,6 +159,7 @@ main {
 }
 
 .headerone {
+    text-align: center;
     color: #080808;
     font-family: "Lato", sans-serif;
     line-height: 54px;
@@ -162,24 +168,33 @@ main {
     font-weight: 700;
     flex: none;
     order: 0;
-    flex-grow: 0;
+    flex-grow: 0;    
 }
 
 .toptext {
     color: #6E6E6E;
     font-family: "Lato", sans-serif;
-    line-height: 27px;
     font-size: 18px;
     font-style: normal;
+    text-align: center;
     font-weight: 500;
+    line-height: 27px;
+    height: 54px;
 }
+
 
 .questions input {
     background: #EEE7F1;
     border: solid #EEE7F1;
     border-radius: 8px;
-    padding: 20px;
+    color: #6E6E6E;
+    font-family: "Lato", sans-serif;
+    line-height: 24px
+    font-size: 16px;
+    font-weight: 500;
     height: 64px;
+    outline-color: #540D6E;
+    padding: 20px;
     width: 794px;
 }
 
@@ -191,16 +206,17 @@ main {
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
+    text-align: center;
 }
 
 .options {
-    border-radius: 1px soolid red;
     align-items: center;
+    border-radius: 1px soolid red;
     display: flex;
-    /*gap:  14.5px;*/
+    gap:  35px;
     justify-content: center;
-    margin: 0;
-    border: 0;
+    /*margin: 0;
+    border: 0;#*/
     padding-bottom: 20px;
     /*height: 64px;
     width: 794px;   */
@@ -216,9 +232,10 @@ main {
     font-weight: 500;
     height: 54px;
     /*justify-content: center;*/
-    /*gap: 104px*/
+    gap: 104px;
     line-height: 24px;
-    padding: 15px;
+    padding: 15px 0;
+    text-align: center;
     width: 184px;
 } 
 
@@ -238,9 +255,10 @@ main {
     font-weight: 500;
     height: 54px;
     /*justify-content: center;*/
-    /*gap: 104px*/
+    gap: 104px;
     line-height: 24px;
-    padding: 15px;
+    padding: 15px 0;
+    text-align: center;
     width: 184px;
 }
 
@@ -259,9 +277,10 @@ main {
     font-weight: 500;
     height: 54px;
     /*justify-content: center;*/
-    /*gap: 104px*/
+    gap: 104px;
     line-height: 24px;
-    padding: 15px;
+    padding: 15px 0;
+    text-align: center;
     width: 184px;
 }
 
@@ -280,9 +299,10 @@ main {
     font-weight: 500;
     height: 54px;
     /*justify-content: center;*/
-    /*gap: 104px*/
+    gap: 104px;
     line-height: 24px;
-    padding: 15px;
+    padding: 15px 0;
+    text-align: center;
     width: 184px;  
 }
 
@@ -298,6 +318,7 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: 28px;
+    text-align: center;
 }
 
 .givefeatures {
@@ -307,6 +328,7 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: 28px;
+    text-align: center;
 }
 
 .itemselect {
@@ -360,6 +382,8 @@ h3 {
     /* margin-left: 200px; */
 }
 
+
+
 @font-face {
     font-family: myfont;
     src: url(Lato-Bold.ttf);
@@ -408,10 +432,12 @@ h3 {
     grid-template-areas: 'a b c' 'a d c';
     height: 492px;
     left: 0px;
+    right: 0px;
     margin-top: 100px;
+    /*min-width: 1440px;*/
     padding: 50px;
     position: absolute;
-    width: 100%;
+    /*width: 100%;*/
     /* top: 1188px; */
 }
 
@@ -472,18 +498,32 @@ h3 {
     /* margin-left: 100px; */
 }
 
-.thirddiv {
+.thirddiv {   
     grid-area: c;
     margin-right: 300px;
     padding: 50px;
+    width: 200px;
 }
 
-.fourthdiv {
+.thirdtext {
+    
+}
+
+.thirdimages {
     grid-area: d;
     margin-top: 55px;
     padding: 15px;
     /* margin-right: 100px; */
     /* margin-left: 0px; */
+}
+
+.thirdimages p {
+    width: 220px;
+}
+
+.footericon{
+    left: 123px;
+    position: absolute;
 }
 
 .playstore {
